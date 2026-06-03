@@ -1,17 +1,131 @@
 <!-- HEADER -->
 <div align="center">
 
-```
- ░▒▓███████▓▒░  ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓███████▓▒░  ░▒▓██████▓▒░
-░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░         ░▒▓█▓▒░░▒▓█▓▒░
-░▒▓█▓▒░░▒▓█▓▒░  ░▒▓██████▓▒░   ░▒▓█▓▒░         ░▒▓█▓▒░
-░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░         ░▒▓█▓▒░
-░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓███████▓▒░   ░▒▓██████▓▒░
-```
-
-### `> whoami`
-**Joan Sebastian Villegas Castaño**  
-_Enterprise Architect · Full Stack Engineer · Ethical Hacker_
+<svg width="100%" viewBox="0 0 680 320" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Joan Sebastian Villegas — Enterprise Architect · Full Stack Engineer · Ethical Hacker</title>
+<desc>Dark fantasy header — Security · Full Stack · Enterprise Architecture</desc>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#050a08"/>
+    <stop offset="100%" stop-color="#0a1210"/>
+  </linearGradient>
+  <linearGradient id="glowV" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#00ff88" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#00cc66" stop-opacity="0.4"/>
+  </linearGradient>
+  <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00ffcc" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#00ffcc" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#00ffcc" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#aaffdd"/>
+    <stop offset="60%" stop-color="#00ff88"/>
+    <stop offset="100%" stop-color="#005533"/>
+  </linearGradient>
+  <linearGradient id="pillarGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#001a0d"/>
+    <stop offset="100%" stop-color="#000d07"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softglow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clip"><rect width="680" height="320"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="680" height="320" fill="url(#bgGrad)"/>
+  <g stroke="#00ff44" stroke-opacity="0.04" stroke-width="0.5">
+    <line x1="0" y1="40" x2="680" y2="40"/><line x1="0" y1="80" x2="680" y2="80"/>
+    <line x1="0" y1="120" x2="680" y2="120"/><line x1="0" y1="160" x2="680" y2="160"/>
+    <line x1="0" y1="200" x2="680" y2="200"/><line x1="0" y1="240" x2="680" y2="240"/>
+    <line x1="0" y1="280" x2="680" y2="280"/>
+    <line x1="80" y1="0" x2="80" y2="320"/><line x1="160" y1="0" x2="160" y2="320"/>
+    <line x1="240" y1="0" x2="240" y2="320"/><line x1="320" y1="0" x2="320" y2="320"/>
+    <line x1="400" y1="0" x2="400" y2="320"/><line x1="480" y1="0" x2="480" y2="320"/>
+    <line x1="560" y1="0" x2="560" y2="320"/>
+  </g>
+  <g stroke="#00ff66" stroke-opacity="0.6" stroke-width="1.2" fill="none">
+    <polyline points="12,12 12,32 32,32"/><polyline points="12,12 22,12"/>
+    <line x1="18" y1="22" x2="32" y2="22"/><line x1="22" y1="12" x2="22" y2="32"/>
+  </g>
+  <g stroke="#00ff66" stroke-opacity="0.6" stroke-width="1.2" fill="none">
+    <polyline points="668,12 668,32 648,32"/><polyline points="668,12 658,12"/>
+    <line x1="662" y1="22" x2="648" y2="22"/><line x1="658" y1="12" x2="658" y2="32"/>
+  </g>
+  <g stroke="#00ff66" stroke-opacity="0.4" stroke-width="1.2" fill="none">
+    <polyline points="12,308 12,288 32,288"/><line x1="18" y1="298" x2="32" y2="298"/>
+  </g>
+  <g stroke="#00ff66" stroke-opacity="0.4" stroke-width="1.2" fill="none">
+    <polyline points="668,308 668,288 648,288"/><line x1="662" y1="298" x2="648" y2="298"/>
+  </g>
+  <rect x="60" y="18" width="560" height="1" fill="url(#cyanGrad)" opacity="0.5"/>
+  <rect x="60" y="301" width="560" height="1" fill="url(#cyanGrad)" opacity="0.4"/>
+  <text x="340" y="68" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="34" font-weight="700" letter-spacing="10" fill="url(#titleGrad)" filter="url(#softglow)">JOAN SEBASTIAN VILLEGAS</text>
+  <line x1="60" y1="82" x2="218" y2="82" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.5"/>
+  <polygon points="218,78 230,82 218,86" fill="#00ff66" fill-opacity="0.7"/>
+  <line x1="452" y1="82" x2="620" y2="82" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.5"/>
+  <polygon points="462,78 450,82 462,86" fill="#00ff66" fill-opacity="0.7"/>
+  <text x="340" y="86" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="10" letter-spacing="6" font-weight="400" fill="#00ffaa" fill-opacity="0.75">⟁ ARCHITECT · ENGINEER · HUNTER ⟁</text>
+  <rect x="40" y="100" width="600" height="0.8" fill="url(#cyanGrad)" opacity="0.6"/>
+  <!-- PILLAR 1 — SECURITY -->
+  <rect x="48" y="112" width="182" height="168" rx="3" fill="url(#pillarGrad)" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.5"/>
+  <rect x="48" y="112" width="182" height="3" rx="1" fill="#00ff66" fill-opacity="0.6"/>
+  <g transform="translate(139,136)" fill="none" stroke="#00ff66" stroke-opacity="0.9" stroke-width="1.2" filter="url(#glow)">
+    <polygon points="0,-12 10,0 0,12 -10,0"/><line x1="-10" y1="0" x2="10" y2="0"/>
+    <line x1="0" y1="-12" x2="0" y2="12"/><circle cx="0" cy="0" r="4" stroke-opacity="0.5"/>
+  </g>
+  <text x="139" y="162" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#00ffaa" filter="url(#glow)">SECURITY</text>
+  <text x="139" y="182" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">OWASP · CVSS v3.1</text>
+  <text x="139" y="198" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">Burp Suite · Nmap · ZAP</text>
+  <text x="139" y="214" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">Black/Grey/White-box</text>
+  <text x="139" y="230" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">ISO 27001 · EHCA</text>
+  <text x="139" y="246" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#009944" fill-opacity="0.7" letter-spacing="1">Nessus · Nikto · PTES</text>
+  <line x1="68" y1="272" x2="210" y2="272" stroke="#00ff66" stroke-width="0.6" stroke-opacity="0.4"/>
+  <text x="139" y="285" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="8" fill="#00ff66" fill-opacity="0.5" letter-spacing="2">[ 20+ CVEs REPORTED ]</text>
+  <!-- PILLAR 2 — FULL STACK -->
+  <rect x="249" y="106" width="182" height="174" rx="3" fill="url(#pillarGrad)" stroke="#00ffbb" stroke-width="1" stroke-opacity="0.65"/>
+  <rect x="249" y="106" width="182" height="3" rx="1" fill="#00ffbb" fill-opacity="0.8"/>
+  <g transform="translate(340,132)" fill="none" stroke="#00ffbb" stroke-opacity="0.95" stroke-width="1.2" filter="url(#glow)">
+    <polygon points="0,-13 13,0 0,13 -13,0"/><polygon points="0,-7 7,0 0,7 -7,0" stroke-opacity="0.5"/>
+    <line x1="-13" y1="0" x2="-7" y2="0"/><line x1="7" y1="0" x2="13" y2="0"/>
+    <line x1="0" y1="-13" x2="0" y2="-7"/><line x1="0" y1="7" x2="0" y2="13"/>
+  </g>
+  <text x="340" y="158" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#aaffee" filter="url(#glow)">FULL STACK</text>
+  <text x="340" y="178" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00ddaa" fill-opacity="0.85" letter-spacing="1">React 18/19 · Vite · Tailwind</text>
+  <text x="340" y="194" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00ddaa" fill-opacity="0.85" letter-spacing="1">Java 17 · Spring Boot 3</text>
+  <text x="340" y="210" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00ddaa" fill-opacity="0.85" letter-spacing="1">GraphQL · REST · OAuth2</text>
+  <text x="340" y="226" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00ddaa" fill-opacity="0.85" letter-spacing="1">Keycloak · JWT · Spring AI</text>
+  <text x="340" y="242" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#009977" fill-opacity="0.7" letter-spacing="1">SQL Server · JPA · Python</text>
+  <line x1="269" y1="268" x2="411" y2="268" stroke="#00ffbb" stroke-width="0.6" stroke-opacity="0.45"/>
+  <text x="340" y="281" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="8" fill="#00ffbb" fill-opacity="0.5" letter-spacing="2">[ 60+ REST ENDPOINTS ]</text>
+  <!-- PILLAR 3 — ENTERPRISE -->
+  <rect x="450" y="112" width="182" height="168" rx="3" fill="url(#pillarGrad)" stroke="#00ff66" stroke-width="0.8" stroke-opacity="0.5"/>
+  <rect x="450" y="112" width="182" height="3" rx="1" fill="#00ff66" fill-opacity="0.6"/>
+  <g transform="translate(541,136)" fill="none" stroke="#00ff66" stroke-opacity="0.9" stroke-width="1.2" filter="url(#glow)">
+    <rect x="-11" y="-11" width="22" height="22" rx="1"/><rect x="-6" y="-6" width="12" height="12" rx="1" stroke-opacity="0.6"/>
+    <line x1="-11" y1="0" x2="-6" y2="0"/><line x1="6" y1="0" x2="11" y2="0"/>
+    <line x1="0" y1="-11" x2="0" y2="-6"/><line x1="0" y1="6" x2="0" y2="11"/>
+  </g>
+  <text x="541" y="162" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#00ffaa" filter="url(#glow)">ENTERPRISE</text>
+  <text x="541" y="178" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">MEGA HOPEX V1–V6</text>
+  <text x="541" y="194" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">EA · BPA · GRC · ITPM</text>
+  <text x="541" y="210" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">Archimate · BPMN · UML</text>
+  <text x="541" y="226" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00cc77" fill-opacity="0.85" letter-spacing="1">IRM · MetaStudio · GRC</text>
+  <text x="541" y="242" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="9" fill="#009944" fill-opacity="0.7" letter-spacing="1">13 yrs · 10+ clients</text>
+  <line x1="470" y1="272" x2="612" y2="272" stroke="#00ff66" stroke-width="0.6" stroke-opacity="0.4"/>
+  <text x="541" y="285" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="8" fill="#00ff66" fill-opacity="0.5" letter-spacing="2">[ BANCOLOMBIA · SENA ]</text>
+  <!-- Connectors between pillars -->
+  <line x1="230" y1="196" x2="249" y2="196" stroke="#00ff66" stroke-width="0.6" stroke-opacity="0.35"/>
+  <line x1="431" y1="196" x2="450" y2="196" stroke="#00ff66" stroke-width="0.6" stroke-opacity="0.35"/>
+  <rect x="40" y="297" width="600" height="0.6" fill="url(#cyanGrad)" opacity="0.4"/>
+  <text x="340" y="312" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="8" fill="#00ff66" fill-opacity="0.35" letter-spacing="4">⟁ MEDELLÍN, COLOMBIA · linkedin.com/in/jsvillegasc ⟁</text>
+</g>
+</svg>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jsvillegasc-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jsvillegasc)
 [![Email](https://img.shields.io/badge/Email-joansv13%40hotmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:joansv13@hotmail.com)
